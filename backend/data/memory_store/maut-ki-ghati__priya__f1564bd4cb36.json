@@ -1,0 +1,40 @@
+{
+  "session_id": "maut-ki-ghati__priya__f1564bd4cb36",
+  "show_id": "maut-ki-ghati",
+  "character_id": "priya",
+  "short_term": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-04T07:27:46.502936+00:00",
+      "intent": "greeting",
+      "turn_id": "3922338a"
+    },
+    {
+      "role": "assistant",
+      "content": "Another journalist, I presume? I'm Priya Sharma, always on the lookout for the next big story. What brings you to this neck of the woods? You're not from around here, are you? The darkness that lurks in these abandoned mills has a way of getting under your skin...",
+      "timestamp": "2026-04-04T07:27:46.502936+00:00",
+      "intent": "greeting",
+      "turn_id": "b56f5aaf"
+    },
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-04T07:30:13.260493+00:00",
+      "intent": "greeting",
+      "turn_id": "0c45a99f"
+    },
+    {
+      "role": "assistant",
+      "content": "Another journalist, I presume? I'm Priya Sharma, always on the lookout for the next big story. What brings you to this neck of the woods? You're not from around here, are you? The darkness that lurks in these abandoned mills has a way of getting under your skin...",
+      "timestamp": "2026-04-04T07:30:13.260493+00:00",
+      "intent": "greeting",
+      "turn_id": "818bdc20"
+    }
+  ],
+  "long_term_summary": "",
+  "entities": {},
+  "total_turns": 4,
+  "created_at": "2026-04-04T07:25:43.140294+00:00",
+  "last_active": "2026-04-04T07:30:13.260493+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "session_id": "maut-ki-ghati__priya__7791a9f957a0",
+  "show_id": "maut-ki-ghati",
+  "character_id": "priya",
+  "short_term": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-04T07:02:37.427380+00:00",
+      "intent": "greeting",
+      "turn_id": "9a8cb120"
+    },
+    {
+      "role": "assistant",
+      "content": "Another journalist on the trail of truth, I presume? Or perhaps just a concerned citizen looking to uncover the secrets that lie beneath the surface? Either way, I'm Priya Sharma, and I'm always eager to collaborate with like-minded individuals. What's your story? What brings you to this neck of the woods?",
+      "timestamp": "2026-04-04T07:02:37.427380+00:00",
+      "intent": "greeting",
+      "turn_id": "80c9c678"
+    },
+    {
+      "role": "user",
+      "content": "hi i am amit",
+      "timestamp": "2026-04-04T07:09:39.920134+00:00",
+      "intent": "greeting",
+      "turn_id": "6ee88fcf"
+    },
+    {
+      "role": "assistant",
+      "content": "Amit, another journalist on the trail of truth, I presume? Or perhaps just a concerned citizen looking to uncover the secrets that lie beneath the surface? Either way, I'm Priya Sharma, and I'm always eager to collaborate with like-minded individuals. What brings you to this neck of the woods?",
+      "timestamp": "2026-04-04T07:09:39.920134+00:00",
+      "intent": "greeting",
+      "turn_id": "66fd08eb"
+    },
+    {
+      "role": "user",
+      "content": "hi i am amit",
+      "timestamp": "2026-04-04T07:16:38.400538+00:00",
+      "intent": "greeting",
+      "turn_id": "0e6b656d"
+    },
+    {
+      "role": "assistant",
+      "content": "Amit, another journalist on the trail of truth, I presume? Or perhaps just a concerned citizen looking to uncover the secrets that lie beneath the surface? Either way, I'm Priya Sharma, and I'm always eager to collaborate with like-minded individuals. What brings you to this neck of the woods?",
+      "timestamp": "2026-04-04T07:16:38.400538+00:00",
+      "intent": "greeting",
+      "turn_id": "f92a4aa6"
+    }
+  ],
+  "long_term_summary": "",
+  "entities": {},
+  "total_turns": 6,
+  "created_at": "2026-04-04T07:00:52.109869+00:00",
+  "last_active": "2026-04-04T07:16:38.400538+00:00"
+}

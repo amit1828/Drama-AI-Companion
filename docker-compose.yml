@@ -1,0 +1,97 @@
+version: "3.9"
+
+# ─────────────────────────────────────────────────────────────────
+# Zupee Drama AI Companion v2 — Docker Compose
+# Services:
+#   ollama    — local LLM server (llama3)
+#   backend   — FastAPI RAG + Memory + Intent
+#   frontend  — Streamlit UI
+# ─────────────────────────────────────────────────────────────────
+
+services:
+
+  # ── Ollama (llama3 LLM) ──────────────────────────────────────────
+  ollama:
+    image: ollama/ollama:latest
+    container_name: drama-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    environment:
+      - OLLAMA_KEEP_ALIVE=24h
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  # ── Model pull (one-shot init) ─────────────────────────────────
+  ollama-pull:
+    image: ollama/ollama:latest
+    container_name: drama-ollama-pull
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+    entrypoint: ["ollama", "pull", "llama3"]
+    restart: "no"
+
+  # ── FastAPI Backend ────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ../Dockerfile
+    container_name: drama-ai-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_MODEL=llama3
+      - DEBUG=false
+      - HOST=0.0.0.0
+      - PORT=8000
+      - VECTOR_STORE_DIR=/app/data/processed/vector_stores
+      - MEMORY_STORE_DIR=/app/data/memory_store
+      - MEMORY_ENABLED=true
+      - INTENT_ENABLED=true
+      - SPOILER_PROTECTION_ENABLED=true
+    volumes:
+      - drama_data:/app/data
+    depends_on:
+      ollama:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 30s
+      timeout: 15s
+      retries: 5
+      start_period: 60s
+    restart: unless-stopped
+
+  # ── Streamlit Frontend ─────────────────────────────────────────
+  frontend:
+    image: python:3.12-slim
+    container_name: drama-ai-frontend
+    working_dir: /app
+    command: >
+      bash -c "pip install streamlit requests --quiet &&
+               streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+               --server.headless true --browser.gatherUsageStats false"
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./frontend:/app
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  drama_data:
+    driver: local
+  ollama_models:
+    driver: local

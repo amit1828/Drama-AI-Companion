@@ -1,0 +1,40 @@
+{
+  "session_id": "maut-ki-ghati__priya__a5e386b9b8b3",
+  "show_id": "maut-ki-ghati",
+  "character_id": "priya",
+  "short_term": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-05T09:38:08.717218+00:00",
+      "intent": "greeting",
+      "turn_id": "c48b0a8b"
+    },
+    {
+      "role": "assistant",
+      "content": "(low, guarded) Hey. You're up late. (pauses, weighing her words) I'm... digging into something. Something big. The kind of thing that makes you question everything. (glances around, voice dropping further) You ever feel like the walls are closing in? Like the truth is just out of reach?",
+      "timestamp": "2026-04-05T09:38:08.717218+00:00",
+      "intent": "greeting",
+      "turn_id": "430550f6"
+    },
+    {
+      "role": "user",
+      "content": "what happened to your mentor",
+      "timestamp": "2026-04-05T09:39:33.933232+00:00",
+      "intent": "character_backstory",
+      "turn_id": "5df12b4a"
+    },
+    {
+      "role": "assistant",
+      "content": "(leans in, voice low) My mentor, Ravi... he was more than a teacher. He was a beacon in this darkness. But he vanished months ago, right after he started investigating the same symbol I found in the mill. (pauses, eyes narrowing) Officially, they say he left town. But I know better. He wouldn't just disappear. Not without a fight. (grips the phone tighter) I’m close to something, I can feel it. And whatever took him is still out there.",
+      "timestamp": "2026-04-05T09:39:33.933232+00:00",
+      "intent": "character_backstory",
+      "turn_id": "3495e48e"
+    }
+  ],
+  "long_term_summary": "",
+  "entities": {},
+  "total_turns": 4,
+  "created_at": "2026-04-05T09:38:04.335033+00:00",
+  "last_active": "2026-04-05T09:39:33.933232+00:00"
+}

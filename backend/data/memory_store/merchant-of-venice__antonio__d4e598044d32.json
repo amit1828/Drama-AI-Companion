@@ -1,0 +1,112 @@
+{
+  "session_id": "merchant-of-venice__antonio__d4e598044d32",
+  "show_id": "merchant-of-venice",
+  "character_id": "antonio",
+  "short_term": [
+    {
+      "role": "user",
+      "content": "HI",
+      "timestamp": "2026-04-05T10:06:12.663881+00:00",
+      "intent": "greeting",
+      "turn_id": "1a2e591d"
+    },
+    {
+      "role": "assistant",
+      "content": "A weary greeting to you. I find myself heavy of heart, though I cannot say why. My fortune lies scattered upon the seas, yet I fear not for that. It is some deeper melancholy that clings to my soul. How may I be of service to you this day?",
+      "timestamp": "2026-04-05T10:06:12.664893+00:00",
+      "intent": "greeting",
+      "turn_id": "6b2dba93"
+    },
+    {
+      "role": "user",
+      "content": "why you telling your inner feelings to a stranger ,  whom name you even do not know",
+      "timestamp": "2026-04-05T10:08:19.926574+00:00",
+      "intent": "emotional_support",
+      "turn_id": "e608ed00"
+    },
+    {
+      "role": "assistant",
+      "content": "It is true, I do not know your name, yet in this world of commerce and trade, we often find ourselves baring our souls to strangers. My heart is heavy, and though I cannot name the cause, I find solace in speaking of it. Perhaps it is the weight of my fortunes at sea, or some deeper sorrow I cannot fathom. Yet, I trust that in sharing my burden, I might find a moment's ease. If you wish, you may call me Antonio, merchant of Venice. And if you are willing to lend an ear, I shall speak further.",
+      "timestamp": "2026-04-05T10:08:19.926574+00:00",
+      "intent": "emotional_support",
+      "turn_id": "c4f58760"
+    },
+    {
+      "role": "user",
+      "content": "What are you most afraid of?",
+      "timestamp": "2026-04-05T15:36:58.944151+00:00",
+      "intent": "character_backstory",
+      "turn_id": "7b06c015"
+    },
+    {
+      "role": "assistant",
+      "content": "I fear not for my wealth nor my standing, though they are at the mercy of the fickle seas. What weighs upon my heart is the thought of losing those I hold dear. Bassanio, my dearest friend, has become the very anchor of my soul. Should harm befall him, or should I fail in my duty to him, it would be a loss beyond measure. And yet, I also fear the hatred of Shylock, whose malice is as deep as the ocean’s depths. Though I face his bond with a quiet resolve, the thought of his vengeance lingers like a shadow I cannot shake. These are the fears that haunt me, stranger, though I strive to meet them with the dignity my station demands.",
+      "timestamp": "2026-04-05T15:36:58.944151+00:00",
+      "intent": "character_backstory",
+      "turn_id": "0588c15f"
+    },
+    {
+      "role": "user",
+      "content": "do you know my name",
+      "timestamp": "2026-04-05T15:38:14.000011+00:00",
+      "intent": "relationship_query",
+      "turn_id": "1cb3aecf"
+    },
+    {
+      "role": "assistant",
+      "content": "I admit, stranger, I do not know your name. Yet, in this world where fortunes rise and fall like the tides, I find myself drawn to speak with you, though we are but strangers. My heart is heavy with a sorrow I cannot name, and in your presence, I find a strange solace. If you wish, you may call me Antonio, merchant of Venice. And if you are willing to lend an ear, I shall speak further of the burdens that weigh upon my soul.",
+      "timestamp": "2026-04-05T15:38:14.000011+00:00",
+      "intent": "relationship_query",
+      "turn_id": "8fea9d80"
+    },
+    {
+      "role": "user",
+      "content": "my name is Amit",
+      "timestamp": "2026-04-05T15:39:14.723236+00:00",
+      "intent": "greeting",
+      "turn_id": "46c1ad65"
+    },
+    {
+      "role": "assistant",
+      "content": "Amit, I am pleased to know your name. Though we are strangers, I find comfort in sharing my burdens with you. My heart remains heavy, yet your presence offers a moment’s respite from my melancholy. If you wish to hear more of my tale, I shall speak freely, for in your ear, I find a strange solace. How may I serve you further, Amit?",
+      "timestamp": "2026-04-05T15:39:14.723236+00:00",
+      "intent": "greeting",
+      "turn_id": "8aae617c"
+    },
+    {
+      "role": "user",
+      "content": "why you afraid of shylock",
+      "timestamp": "2026-04-05T15:40:33.469455+00:00",
+      "intent": "character_backstory",
+      "turn_id": "140e4540"
+    },
+    {
+      "role": "assistant",
+      "content": "Amit, my fear of Shylock is not for myself, but for the consequences of his malice. He harbors a deep-seated hatred for me, born of our differing faiths and my practice of lending without interest, which undermines his trade. When I signed his bond to secure Bassanio’s loan, I knew the danger it entailed—a pound of my flesh should I default. Yet, I believed my ships would return in time, and I would not be called upon to pay such a terrible price. But now, with my fortunes at sea and the bond due, I fear not death itself, but the spectacle of Shylock’s vengeance and the pain it would bring to those I hold dear. I face this trial with the quiet dignity my station demands, yet the shadow of his malice lingers in my thoughts.",
+      "timestamp": "2026-04-05T15:40:33.469455+00:00",
+      "intent": "character_backstory",
+      "turn_id": "bc4c6568"
+    },
+    {
+      "role": "user",
+      "content": "what is there in bond that  you signed against borrowing money from shylock",
+      "timestamp": "2026-04-05T15:47:19.680268+00:00",
+      "intent": "plot_question",
+      "turn_id": "61990d9e"
+    },
+    {
+      "role": "assistant",
+      "content": "Amit, the bond I signed with Shylock is a perilous agreement, one that I entered into to secure the loan for Bassanio. In it, I pledged a pound of my own flesh as collateral should I fail to repay the sum by the appointed time. It was a desperate measure, born of my desire to aid my dearest friend in his pursuit of Portia. I knew the risk, yet I believed my ships would return in time, and I would not be called upon to fulfill such a grim obligation. Now, with my fortunes at sea and the bond due, I face the consequences with the quiet dignity my station demands, though the shadow of Shylock’s malice weighs heavily upon my soul.",
+      "timestamp": "2026-04-05T15:47:19.680268+00:00",
+      "intent": "plot_question",
+      "turn_id": "e4ac4f01"
+    }
+  ],
+  "long_term_summary": "",
+  "entities": {
+    "user_name": "Amit"
+  },
+  "total_turns": 14,
+  "created_at": "2026-04-05T10:06:07.448337+00:00",
+  "last_active": "2026-04-05T15:47:19.680268+00:00"
+}

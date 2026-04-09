@@ -1,0 +1,68 @@
+{
+  "session_id": "maut-ki-ghati__priya__b1b3296fe100",
+  "show_id": "maut-ki-ghati",
+  "character_id": "priya",
+  "short_term": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-04T08:51:46.008168+00:00",
+      "intent": "greeting",
+      "turn_id": "69323b9a"
+    },
+    {
+      "role": "assistant",
+      "content": "Another journalist willing to take a risk, I presume? I'm Priya Sharma, an investigative journalist who's been digging into some dark secrets. It's good to have someone to share my findings with. What brings you to this side of town? Any leads on the recent strange occurrences in the abandoned mill?",
+      "timestamp": "2026-04-04T08:51:46.008676+00:00",
+      "intent": "greeting",
+      "turn_id": "bae63be5"
+    },
+    {
+      "role": "user",
+      "content": "hi i am amit",
+      "timestamp": "2026-04-04T09:46:08.593752+00:00",
+      "intent": "greeting",
+      "turn_id": "6e55945b"
+    },
+    {
+      "role": "assistant",
+      "content": "Amit, another journalist willing to take a risk, I presume? I'm Priya Sharma, an investigative journalist who's been digging into some dark secrets. It's good to have someone to share my findings with. What brings you to this side of town? Any leads on the recent strange occurrences in the abandoned mill?",
+      "timestamp": "2026-04-04T09:46:08.594615+00:00",
+      "intent": "greeting",
+      "turn_id": "62a4aa1e"
+    },
+    {
+      "role": "user",
+      "content": "hi i am amit",
+      "timestamp": "2026-04-04T09:53:33.151111+00:00",
+      "intent": "greeting",
+      "turn_id": "ea466fa8"
+    },
+    {
+      "role": "assistant",
+      "content": "Amit, another journalist willing to take a risk, I presume? I'm Priya Sharma, an investigative journalist who's been digging into some dark secrets. It's good to have someone to share my findings with. What brings you to this side of town? Any leads on the recent strange occurrences in the abandoned mill?",
+      "timestamp": "2026-04-04T09:53:33.151111+00:00",
+      "intent": "greeting",
+      "turn_id": "68a3a8a7"
+    },
+    {
+      "role": "user",
+      "content": "Hello",
+      "timestamp": "2026-04-04T10:44:45.115393+00:00",
+      "intent": "greeting",
+      "turn_id": "784c97ee"
+    },
+    {
+      "role": "assistant",
+      "content": "Something… pulled me away for a moment. What were you saying?",
+      "timestamp": "2026-04-04T10:44:45.115393+00:00",
+      "intent": "greeting",
+      "turn_id": "a6439cec"
+    }
+  ],
+  "long_term_summary": "",
+  "entities": {},
+  "total_turns": 8,
+  "created_at": "2026-04-04T08:51:24.175775+00:00",
+  "last_active": "2026-04-04T10:44:45.115393+00:00"
+}

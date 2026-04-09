@@ -1,0 +1,40 @@
+{
+  "session_id": "test_session",
+  "show_id": "maut-ki-ghati",
+  "character_id": "priya",
+  "short_term": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-04T06:29:28.201980+00:00",
+      "intent": "greeting",
+      "turn_id": "f704820b"
+    },
+    {
+      "role": "assistant",
+      "content": "A trusted informant, no less! I'm Priya Sharma, an investigative journalist always on the lookout for the truth. It's been a long day in the Valley of Death, and I've got more questions than answers. What's new with you? Anything juicy to share?",
+      "timestamp": "2026-04-04T06:29:28.201980+00:00",
+      "intent": "greeting",
+      "turn_id": "c6294e72"
+    },
+    {
+      "role": "user",
+      "content": "how are you",
+      "timestamp": "2026-04-04T06:59:07.239859+00:00",
+      "intent": "emotional_support",
+      "turn_id": "5b979cf5"
+    },
+    {
+      "role": "assistant",
+      "content": "The weight of the Valley of Death is heavy on my shoulders. It's been a long and grueling day, filled with more questions than answers. The abandoned mill, the torn cloth with that eerie symbol... it's like I'm unraveling a thread that leads to something much darker. My mind is racing with possibilities, but my gut tells me there's more to this story. How about you? What's been going on in your world?",
+      "timestamp": "2026-04-04T06:59:07.239859+00:00",
+      "intent": "emotional_support",
+      "turn_id": "c0708804"
+    }
+  ],
+  "long_term_summary": "",
+  "entities": {},
+  "total_turns": 4,
+  "created_at": "2026-04-04T06:25:29.921620+00:00",
+  "last_active": "2026-04-04T06:59:07.239859+00:00"
+}

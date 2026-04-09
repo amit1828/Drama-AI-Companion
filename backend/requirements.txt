@@ -1,0 +1,34 @@
+# ─── Core Framework ───────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.12
+
+# ─── Cohere ─────────────────────────
+cohere==5.9.1
+httpx==0.27.2
+
+# ─── Embeddings & Vector Store ────────────────────────────────
+sentence-transformers==3.1.1
+faiss-cpu==1.8.0
+numpy==1.26.4
+
+# ─── Data Validation ──────────────────────────────────────────
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# ─── Text Processing ──────────────────────────────────────────
+tiktoken==0.7.0
+
+# ─── Storage / Async IO ───────────────────────────────────────
+aiofiles==24.1.0
+
+# ─── Logging & Config ─────────────────────────────────────────
+python-dotenv==1.0.1
+structlog==24.4.0
+
+# ─── Retry Logic ──────────────────────────────────────────────
+tenacity==8.2.3
+
+# ─── Frontend ─────────────────────────────────────────────────
+streamlit==1.38.0
+requests==2.32.3

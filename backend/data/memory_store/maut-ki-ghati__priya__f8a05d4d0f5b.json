@@ -1,0 +1,82 @@
+{
+  "session_id": "maut-ki-ghati__priya__f8a05d4d0f5b",
+  "show_id": "maut-ki-ghati",
+  "character_id": "priya",
+  "short_term": [
+    {
+      "role": "user",
+      "content": "Hi",
+      "timestamp": "2026-04-04T11:19:59.871503+00:00",
+      "intent": "greeting",
+      "turn_id": "1484f268"
+    },
+    {
+      "role": "assistant",
+      "content": "(quietly, checking behind her as if expecting someone to overhear)  \nHey. Careful—walls have ears, especially around here. What brings you to *Maut Ki Ghati*? Something on your mind, or just passing through?",
+      "timestamp": "2026-04-04T11:19:59.871503+00:00",
+      "intent": "greeting",
+      "turn_id": "8c8a267f"
+    },
+    {
+      "role": "user",
+      "content": "hi i am amit",
+      "timestamp": "2026-04-04T11:21:01.145840+00:00",
+      "intent": "greeting",
+      "turn_id": "841fbf44"
+    },
+    {
+      "role": "assistant",
+      "content": "(quietly, glancing around as if expecting someone to overhear)  \nHey Amit. Good to see you’re still alive—unlike some around here. What brings you to *Maut Ki Ghati*? You’re not just here for the scenery, are you? I’ve been digging into something big, something tied to that symbol I found in the mill. A serpent eating its own tail—it’s connected to my mentor’s death. Watch your back, okay? This place has a way of swallowing people whole.",
+      "timestamp": "2026-04-04T11:21:01.145840+00:00",
+      "intent": "greeting",
+      "turn_id": "82dd7faf"
+    },
+    {
+      "role": "user",
+      "content": "what is my name",
+      "timestamp": "2026-04-04T11:21:44.334003+00:00",
+      "intent": "character_backstory",
+      "turn_id": "97624628"
+    },
+    {
+      "role": "assistant",
+      "content": "(glancing around quickly, voice hushed)  \nAmit, right? You’re the one who reached out last time. Be careful with that name around here—it’s not just the walls that listen. I’ve been digging deeper since we last spoke, and the serpent symbol keeps showing up. It’s like it’s taunting me. Tell me, Amit, what’s your stake in all this? You’re either very brave or very foolish to be here.",
+      "timestamp": "2026-04-04T11:21:44.334003+00:00",
+      "intent": "character_backstory",
+      "turn_id": "a216c2ee"
+    },
+    {
+      "role": "user",
+      "content": "how's your mentor",
+      "timestamp": "2026-04-04T11:23:31.024832+00:00",
+      "intent": "relationship_query",
+      "turn_id": "ee7fdc21"
+    },
+    {
+      "role": "assistant",
+      "content": "(hesitates, glancing around as if checking for eavesdroppers) My mentor... he’s dead, Amit. That’s why I’m here. His death wasn’t an accident, not with that serpent symbol tied to it. I’m closer to the truth than ever, but the deeper I dig, the more I realize how little I knew about him—or the enemies he made. Watch your step. This place doesn’t forgive mistakes.",
+      "timestamp": "2026-04-04T11:23:31.024832+00:00",
+      "intent": "relationship_query",
+      "turn_id": "871ea41b"
+    },
+    {
+      "role": "user",
+      "content": "narrate your ep 1 story",
+      "timestamp": "2026-04-04T16:33:07.477152+00:00",
+      "intent": "plot_question",
+      "turn_id": "5ae7fed3"
+    },
+    {
+      "role": "assistant",
+      "content": "(voice low, glancing around as if someone might be listening) In Episode 1, I snuck into the abandoned mill under cover of night. The locals claimed it was untouched for years, but I found fresh equipment, signs of recent activity. I photographed everything—especially a strange symbol on a torn piece of cloth: a serpent devouring its own tail. I’d seen it before, in my mentor’s notes, before his death. Just as I realized that, I heard footsteps. Someone else was there. I killed my torch and froze, but they were gone by the time I moved again. That symbol... it’s the key, Amit. And whoever’s using that mill doesn’t want me asking questions.",
+      "timestamp": "2026-04-04T16:33:07.477152+00:00",
+      "intent": "plot_question",
+      "turn_id": "c8d2ac44"
+    }
+  ],
+  "long_term_summary": "",
+  "entities": {},
+  "total_turns": 10,
+  "created_at": "2026-04-04T11:19:55.955395+00:00",
+  "last_active": "2026-04-04T16:33:07.477152+00:00"
+}

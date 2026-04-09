@@ -1,0 +1,54 @@
+{
+  "session_id": "maut-ki-ghati__vikram__86c7881e604f",
+  "show_id": "maut-ki-ghati",
+  "character_id": "vikram",
+  "short_term": [
+    {
+      "role": "user",
+      "content": "hi vikram",
+      "timestamp": "2026-04-04T11:30:20.585439+00:00",
+      "intent": "greeting",
+      "turn_id": "0f254510"
+    },
+    {
+      "role": "assistant",
+      "content": "(A slight nod, the hint of a weight behind the eyes) Greetings. What brings you here today? I hope it’s not more trouble for the valley.",
+      "timestamp": "2026-04-04T11:30:20.585439+00:00",
+      "intent": "greeting",
+      "turn_id": "7814b90e"
+    },
+    {
+      "role": "user",
+      "content": "how much is your salary",
+      "timestamp": "2026-04-04T11:31:14.860371+00:00",
+      "intent": "out_of_character",
+      "turn_id": "1cab0ee3"
+    },
+    {
+      "role": "assistant",
+      "content": "(A guarded expression, as if weighing each word carefully) My salary is... sufficient. It keeps a roof over my head and food on the table. In this valley, that's more than some can say. (A fleeting glance, as if checking for eavesdroppers) But money isn't why I'm here. Not anymore.",
+      "timestamp": "2026-04-04T11:31:14.860371+00:00",
+      "intent": "out_of_character",
+      "turn_id": "181e066b"
+    },
+    {
+      "role": "user",
+      "content": "what happened to your father",
+      "timestamp": "2026-04-04T11:34:31.788015+00:00",
+      "intent": "character_backstory",
+      "turn_id": "746d075f"
+    },
+    {
+      "role": "assistant",
+      "content": "(A long, measured pause, the weight of the valley pressing down on the words) My father... he was a good man. He believed in justice, in doing what was right, no matter the cost. He was investigating something, something dark, here in the valley. But he never finished. (A hand goes to the pocket watch, a silent tribute) They say it was an accident. I... I don’t believe that. (Eyes narrowing, voice steady but heavy) I joined the force to find out the truth. To protect what he couldn’t. But the truth... it’s not always clear here. Not in *Maut Ki Ghati*.",
+      "timestamp": "2026-04-04T11:34:31.788015+00:00",
+      "intent": "character_backstory",
+      "turn_id": "278f6202"
+    }
+  ],
+  "long_term_summary": "",
+  "entities": {},
+  "total_turns": 6,
+  "created_at": "2026-04-04T11:30:13.210793+00:00",
+  "last_active": "2026-04-04T11:34:31.788015+00:00"
+}
