@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎭 Zupee Drama AI Companion
 
 > RAG-powered AI companion backend for Zupee Studio micro-dramas.
@@ -399,3 +400,6 @@ persona-only (no RAG context).
 | Retry | tenacity |
 | Frontend | Streamlit |
 | Container | Docker + docker-compose |
+=======
+# Drama-AI-Companion
+>>>>>>> ecb66e1405ad458d6e173ccd8e7cf3c30ef6c69d
